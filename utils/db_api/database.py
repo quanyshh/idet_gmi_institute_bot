@@ -1,7 +1,7 @@
 from gino import Gino
 
 # from data.config import POSTGREURI
-# from utils.db_api.add_to_database import add_data
+#from utils.db_api.add_to_database import add_data
 
 
 
@@ -12,7 +12,7 @@ async def create_db():
 
 
     # Создаем таблицы
-    await db.gino.drop_all()
-    await db.gino.create_all()
-    # await add_data()
+    #await db.gino.drop_all()
+    #await db.gino.create_all()
+    #await add_data()
 
